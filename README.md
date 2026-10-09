@@ -30,6 +30,13 @@ Scene counts:
 
 **Note on VV:** the difference between the two separately reported mean composites is about +0.377 dB, while the mean of the pixel-wise VV difference layer is +0.319 dB. These values can differ when the composites have different valid-pixel masks. A common-pixel comparison is needed before interpreting them as directly comparable summaries.
 
+**Change maps**
+Sentinel-1 VV backscatter change
+Sentinel-1 VH backscatter change
+Sentinel-2 NDVI change
+
+The maps show post-event minus pre-event values. SAR changes are expressed in decibels (dB), while NDVI change is unitless. Colour patterns indicate spatial variation and should be interpreted alongside the study design and its limitations.
+
 ## Interpretation
 Mean VV and VH backscatter became slightly less negative in the post-event composite, while mean NDVI decreased. The lower NDVI is consistent with reduced vegetation greenness in the post-event composite. SAR and optical sensors respond to different surface properties, so their directions of change need not match.
 
