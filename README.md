@@ -1,6 +1,6 @@
 # Exploring Sentinel-1 SAR Backscatter for Forest Disturbance Monitoring
 
-**Portfolio project | Environmental remote sensing | Google Earth Engine**
+**Environmental remote sensing | Google Earth Engine**
 
 ## Overview
 This exploratory project compares Sentinel-1 C-band SAR backscatter (VV and VH) with Sentinel-2 NDVI around Jasper, Alberta, Canada, across pre-event and post-event windows in 2024.
@@ -34,15 +34,3 @@ Scene counts:
 Mean VV and VH backscatter became slightly less negative in the post-event composite, while mean NDVI decreased. The lower NDVI is consistent with reduced vegetation greenness in the post-event composite. SAR and optical sensors respond to different surface properties, so their directions of change need not match.
 
 These results are descriptive and exploratory. The analysis does not isolate the official burned perimeter or compare burned pixels with unburned controls. Changes may reflect seasonality, surface moisture, acquisition geometry, terrain, mixed burned/unburned pixels, and other factors. The results do not establish that the wildfire caused the observed differences.
-
-## How to reproduce
-1. Open [Google Earth Engine Code Editor](https://code.earthengine.google.com/).
-2. Copy `gee_forest_disturbance.js` into a new script.
-3. Run it and inspect scene counts, printed statistics, and map layers.
-4. The code's calculated values should be checked against the values recorded above when the script is rerun; results may differ if the script, date windows, filters, or AOI are changed.
-
-## Next improvement
-A next step is to use an official Jasper wildfire perimeter and compare burned versus unburned areas with matched valid pixels and careful consideration of acquisition dates and environmental conditions.
-
-## Suggested repository description
-Exploratory Sentinel-1 VV/VH backscatter and Sentinel-2 NDVI comparison around Jasper, Alberta, using Google Earth Engine.
